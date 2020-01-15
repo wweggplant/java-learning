@@ -1,13 +1,14 @@
 package com.server.sso;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
-
+@MapperScan("com.server.sso.dao")
+public class MainApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(MainApplication.class, args);
 	}
 
 }
