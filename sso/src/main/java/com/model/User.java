@@ -5,6 +5,7 @@ public class User {
     private String name;
     private int age;
     private double money;
+    private String password;
     public void setId(int id) {
         this.id = id;
     }
@@ -31,5 +32,12 @@ public class User {
 
     public double getMoney() {
         return money;
+    }
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
     }
 }

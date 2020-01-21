@@ -4,6 +4,7 @@ import com.server.sso.dao.UserDao;
 
 import java.util.List;
 
+import com.model.LoginUser;
 import com.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
